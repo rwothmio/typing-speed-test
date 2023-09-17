@@ -3,11 +3,11 @@ body {
 }
 
 #heading {
-    color: #4D4D4D;
+    color: #4d4d4d;
     text-align: center;
 }
 
-#continer {
+#container {
     display: flex;
     justify-content: center;
 }
@@ -16,18 +16,18 @@ button {
     font-size: 18px;
     letter-spacing: 1.4px;
     color: white;
-    background: #B46060;
+    background: #b46060;
     outline: none;
     border: none;
     border-radius: 4px;
-    padding: 8px 16px;
+    padding: 8px;
     cursor: pointer;
 }
 
 button:hover {
     background: white;
-    color: #B46060;
-    outline: solid 1px #B46060;
+    color: #b46060;
+    border: solid 1px #b46060;
 }
 
 .characters {
@@ -43,7 +43,7 @@ button:hover {
 }
 
 .box {
-    background-color: white;
+    background: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 18px;
     border-radius: 4px;
@@ -55,10 +55,9 @@ button:hover {
 }
 
 .result h2 {
-    color: #4D4D4D;
+    color: #4d4d4d;
     letter-spacing: 1.2px;
 }
-
 
 .result td {
     padding: 8px 4px 8px 0;
@@ -68,11 +67,11 @@ button:hover {
 
 .value {
     font-weight: bold;
-    color: #B46060;
+    color: #b46060;
 }
 
 .character {
-    color: #4D4D4D;
+    color: #4d4d4d;
     display: inline-block;
     font-size: 28px;
     padding: 5px 2px;
@@ -80,22 +79,20 @@ button:hover {
 }
 
 .space-character::before {
-    content: '\00a0';
+    content: "\00a0";
 }
 
 .correct {
     color: white;
-    background-color: #A0C49D;
+    background-color: #a0c490;
 }
-
 .wrong {
     color: white;
-    background-color: #B46060;
+    background-color: #b46060;
 }
-
 .current {
     color: white;
-    background-color: #4D4D4D;
+    background-color: #4d4d4d;
 }
 
 .hide {

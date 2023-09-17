@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>typing speed test</title>
-  </head>
-  <body>
+</head>
+<body>
+
     <h1 id="heading">typing speed test</h1>
-    <div id="continer">
-      <button id="start">start test</button>
+    <div id="container">
+        <button id="start">start test</button>
+        <div class="characters box hide"></div>
 
-      <div class="characters box hide"></div>
-
-      <div class="result box hide">
-        <h2>Your Results</h2>
-        <table>
-          <tr>
-            <td>Speed:</td>
-            <td><span class="value speed"></span>wpm</td>
-          </tr>
-          <tr>
-            <td>Accuracy:</td>
-            <td><span class="value accuracy"></span>%</td>
-          </tr>
-        </table>
-        <button id="retake">retake test</button>
-      </div>
+        <div class="result box hide">
+            <h2>Your Results</h2>
+            <table>
+                <tr>
+                    <td>Speed:</td>
+                    <td>
+                        <span class="value speed"></span>
+                        wpm
+                    </td>
+                </tr>
+                <tr>
+                    <td>Accuracy:</td>
+                    <td>
+                        <span class="value accuracy"></span>
+                        %
+                    </td>
+                </tr>
+            </table>
+            <button id="retake">retake test</button>
+        </div>
     </div>
-
+    
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
